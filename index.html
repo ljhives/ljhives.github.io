@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"-->
+    <!--          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"-->
+    <!--          crossorigin="anonymous">-->
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<!-- =======================================================
+* Template Name: Resume for GIS portfolio
+* Template URL:
+* Author: https://github.com/Abhisaran
+* License:
+======================================================== -->
+
+<body id="body">
+<!--<body>-->
+<!-- Navigation Bar -->
+<header>
+    <nav id="navbar" class="navbar" role="navigation" data-mobile="false">
+        <button id="navbar-toggle" class="navbar-toggle" type="button"
+                aria-controls="navbar-menu"
+                aria-label="Toggle menu"
+                aria-expanded="false">
+            <i class="fa fa-bars"></i>
+        </button>
+        <ul id="nav-link-container" class="nav-link-container">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#resume" class="nav-link">Resume</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<a href="#portfolio" id="nav-scroll-button">
+    <span> >>> </span>
+</a>
+
+<section id="home">
+    <div id="home-left">
+        <!--        <div class="name-big-font">Hi,</div>-->
+        <!--        <div id="hacker-name" class="name-big-font">My name is 1337D0xer!</div>-->
+        <!--        <div id="name-description" class="name-big-font">and I am a-->
+        <!--            <span class="name-big-font">Programmer_</span>-->
+        <!--        </div>-->
+        <div id="hacker-name" class="name-big-font">Hi,&#13; my name is Lachlan Hives and I am a Surveyor</div>
+    </div>
+    <div id="home-right">
+        <div id="home-right-bg"></div>
+    </div>
+</section>
+<!-- PORTFOLI SECTION -->
+<main id="main">
+    <section id="portfolio">
+        <div class="name-big-font">-- Portfolio --</div>
+        <div class="portfolio-filter-container">
+            <ul id="portfolio-filters">
+                <li>
+                    <button data-filter-id="all" class="filter-button filter-button-active">All</button>
+                </li>
+                <li>
+                    <button data-filter-id="personal" class="filter-button">Personal</button>
+                </li>
+                <li>
+                    <button data-filter-id="professional" class="filter-button">Professional</button>
+                </li>
+                <li>
+                    <button data-filter-id="commercial" class="filter-button">Commercial</button>
+                </li>
+                <li>
+                    <button data-filter-id="university" class="filter-button">University</button>
+                </li>
+            </ul>
+        </div>
+        <div class="portfolio-grid-container">
+
+            <div class="portfolio-grid-item hivesy" data-project-type="personal">
+
+                    <img class="portfolio-image" src="images\project-images\tanlines.jpg" alt="Tanlines">
+                    <div class="hivesy__overlay">
+                      <div class="hivesy__title">Great Victorian Bike Ride</div>
+                      <div class="hivesy__p">
+                                              A 9 day bike ride I have completed 5 times both through highschool and as a member of the general public.
+                                            </div>
+                    </div>
+
+            </div>
+            <div class="portfolio-grid-item hivesy" data-project-type="personal">
+                    <img class="portfolio-image" src="images\project-images\tennis.jpg" alt="Tennis">
+                    <div class="hivesy__overlay">
+                      <div class="hivesy__title">Local Night Tennis</div>
+                      <div class="hivesy__p">
+                                            I captain a team at local weeknight tennis where we have won 1 premiership.
+                                          </div>
+                    </div>
+
+            </div>
+            <div class="portfolio-grid-item hivesy" data-project-type="professional">
+                    <img class="portfolio-image" src="images\project-images\Total Station.jpg" alt="Total Station">
+                <div class="hivesy__overlay">
+                      <div class="hivesy__title">Total Station Calibration</div>
+                      <div class="hivesy__p">
+                                              Monthly Check and Adjust performed while working on the Melbourne Metro Tunnel Project.
+                                            </div>
+                    </div>
+            </div>
+            <div class="portfolio-grid-item hivesy" data-project-type="professional">
+                    <img class="portfolio-image" src="images\project-images\Tunnel.jpg" alt="Tunnel">
+                <div class="hivesy__overlay">
+                      <div class="hivesy__title">Tunnel Surveying</div>
+                      <div class="hivesy__p">
+                                              Working on the Melbourne Metro Tunnel Project as a Tunnel Surveyor while working on the first Trinocular Tunnel in Australia.
+                                            </div>
+                    </div>
+            </div>
+            <div class="portfolio-grid-item hivesy" data-project-type="university">
+                    <img class="portfolio-image" src="images\project-images\Eng Sur.JPG" alt="Engineering Surveying">
+                <div class="hivesy__overlay">
+                      <div class="hivesy__title">RMIT Engineering Surveying Road Design</div>
+                      <div class="hivesy__p">
+                                          During the time at RMIT I created this plan of a road feature survey for a road that we designed in a group and setout.
+                                          </div>
+                    </div>
+            </div>
+            <div class="portfolio-grid-item hivesy" data-project-type="university">
+                    <img class="portfolio-image" src="images\project-images\Keel Bundoora.JPG" alt="Keel Bundoora">
+                <div class="hivesy__overlay">
+                      <div class="hivesy__title">RMIT Land Development Subdivision Plan</div>
+                      <div class="hivesy__p">
+                                             In the Land Development class at RMIT I created a mock plan for a subdivision at RMIT Bundoora West.
+                                            </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- RESUME SECTION -->
+    <section id="resume">
+        <div class="name-big-font">-- Resume --</div>
+        <div id="resume-container">
+            <div class="resume-article">
+                <div class="resume-article-left">
+                    <img class="resume-image" src="images/resume-images/Veris.png" alt="Veris logo in resume">
+                </div>
+                <div class="resume-article-right">
+                    <div class="resume-title">Veris</div>
+                    <div class="resume-designation">Surveyor, since November 2019</div>
+                    <div class="resume-location">Melbourne</div>
+                    <br>
+                    <div class="resume-description">As a surveyor with Veris I have been stationed at the
+                      Melbourne Metro Tunnel Project completeing both excavation and structual works.
+                        <br>
+                        <br>
+                        <span class="resume-description-key">
+                            Key responsibilities
+                        </span>
+                        <ul>
+                            <li>Setout work of structural elements;
+                            </li>
+                            <li>Asbuilting and reporting on complete works;
+                            </li>
+                            <li>Checking excavations compared to the design and asbuilting
+                            </li>
+                            <li>Setting out depth pins for tunnel shocrete
+                            </li>
+                        </ul>
+                        <br>
+                        <span class="resume-description-key">
+                            Key achievements
+                        </span>
+                        <ul>
+                            <li>Part of the team that completed the first excavations of a trinochular tunnel in Australia;
+                            </li>
+                            <li>Managing my own site after only being in the industry for 2 years;
+                            </li>
+                            <li>Gaining competency in using 12D and 12D Field with Leica Total Stations;
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <section id="contact">
+        <div class="name-big-font">-- Contact --</div>
+        <div id="social-container">
+            <div id="social-media-container">
+                <a href="https://www.facebook.com/lachlan.hives/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/hivsey/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://www.linkedin.com/in/lachlan-hives-533394195/" target="_blank"><i class="fab fa-linkedin"></i>
+                <a href="https://github.com/ljhives/ljhives.github.io" target="_blank"><i class="fab fa-github-square"></i></a>
+                <a ><i class="fas fa-phone-square" title="0468486754"></i></a>
+                <a href=""><i class="fab fa-envelope-square"></i></a>
+            </div>
+        </div>
+        <div id="email-container">
+            <div id="contact-email-container">
+                <div>
+                  <input id="email-input-from" type="email"
+                         placeholder="To email address" value="lachlan.jh@hotmail.com" required disabled/>
+                  <input id="email-input-name" type="text"
+                         placeholder="Please enter your name" required/>
+                </div>
+                <input id="email-input-subject" type="text"
+                       placeholder="Subject?" required/>
+                <input id="email-input-body" type="text"
+                       placeholder="Your response" required/>
+                <button id="email-input-button">Send</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer id="footer">
+    <div class="footer-container">
+        <div class="credits">
+            Designed by <a href="https://github.com/Abhisaran">Abhi</a>
+        </div>
+        <div class="copyright">
+            &copy; Copyright <strong><span>MIT License</span></strong> All Rights Reserved
+        </div>
+    </div>
+</footer>
+
+<!-- Main javascript file -->
+<script src="js/index.js"></script>
+</body>
+</html>
